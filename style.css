@@ -1,0 +1,199 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #c3c1c1;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo-container {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+}
+
+.logo {
+    width: 100px;
+    height:100px; 
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.header-container {
+    display: flex; 
+    gap: 400px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+
+.header-container h1 {
+    color: #007bff;
+    text-transform:capitalize;
+    text-align: left;
+}
+
+.header-container .pp{
+    color: #111111;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.header-container .qqqq {
+    color: #111111;
+    background-color: burlywood;
+    border-radius: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align:center;
+    background-color: rgba(74, 130, 130, 0.955);
+    border-radius: 10px;
+}
+.mostafa{
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align:center;
+    background-color: rgba(74, 130, 130, 0.955);
+    border-radius: 10px;
+    display:inline;
+    width: 400px;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+}
+
+.link-container div {
+    background-color: #e9ecef; 
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.link-container div a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link-container div:hover {
+    background-color: #007bff; 
+    transform: translateY(-3px); 
+}
+
+.link-container div:hover a {
+    color: #fff;
+}
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin: 20px;
+}
+
+
+.profile-icon {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-image: url(th.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.avatar-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    
+}
+
+
+.profile-name {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
+    text-align: left;
+}
+
+
+.sasa,.profile-container2 {
+    text-align: center; 
+}
+
+.sasa{
+    width: 300px;
+}
+.profile-container2 {
+    display: flex;
+    margin-bottom: 10px; 
+}
+
+.profile-icon2,.profile-name2 {
+    margin-left: 10px; 
+}
+
+.profile-icon2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-image: url(th.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .logo-image {
+        width: 150px;
+    }
+
+    .link-container div {
+        padding: 10px;
+    }
+}
